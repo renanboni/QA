@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626815655285' stop='1626815657889'>
+    <name>Create a fixed rate contract</name>
+    <title>Create a fixed rate contract</title>
+    <test-cases>
+        <test-case start='1626815655286' status='broken' stop='1626815657889'>
+            <name>"before all" hook for Create a fixed rate contract</name>
+            <title>"before all" hook for Create a fixed rate contract</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626815655287' status='passed' stop='1626815657491'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='aa68f00a-c9de-456e-952c-f8d4f68e45ef-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815657492' status='passed' stop='1626815657504'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9a3d3580-ac33-4ec5-ba75-eef0645a74e6-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='b6ca189a-5095-4f39-88fc-879f2e4501fd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815657510' status='passed' stop='1626815657537'>
+                    <name>POST /session/:sessionId/element/93dee76f-b653-4bde-8e22-230e93849c19/clear</name>
+                    <title>POST /session/:sessionId/element/93dee76f-b653-4bde-8e22-230e93849c19/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626815657541' status='passed' stop='1626815657704'>
+                    <name>POST /session/:sessionId/element/93dee76f-b653-4bde-8e22-230e93849c19/value</name>
+                    <title>POST /session/:sessionId/element/93dee76f-b653-4bde-8e22-230e93849c19/value</title>
+                    <attachments>
+                        <attachment title='Request' source='bb6557a3-184c-4423-ae8a-b330a215dfa8-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815657705' status='passed' stop='1626815657715'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d3116cbd-5b01-479a-b7d0-d93a81f29cf8-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='d993e182-d6da-476d-82f8-b2ca362e02b1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815657717' status='passed' stop='1626815657740'>
+                    <name>POST /session/:sessionId/element/8f991e22-c0b9-4fcd-a8ee-c07c1dcf3268/clear</name>
+                    <title>POST /session/:sessionId/element/8f991e22-c0b9-4fcd-a8ee-c07c1dcf3268/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626815657741' status='passed' stop='1626815657801'>
+                    <name>POST /session/:sessionId/element/8f991e22-c0b9-4fcd-a8ee-c07c1dcf3268/value</name>
+                    <title>POST /session/:sessionId/element/8f991e22-c0b9-4fcd-a8ee-c07c1dcf3268/value</title>
+                    <attachments>
+                        <attachment title='Request' source='e768294d-a503-4787-bb8f-d80c739e9293-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815657802' status='passed' stop='1626815657812'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='98c9ce77-a055-4a1a-b90c-03b6ac1caacd-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='adf0b08d-9039-46d4-a302-3cc18c81df88-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815657814' status='passed' stop='1626815657885'>
+                    <name>POST /session/:sessionId/element/433aaffd-2033-4a01-a5f7-fe3e928bb147/click</name>
+                    <title>POST /session/:sessionId/element/433aaffd-2033-4a01-a5f7-fe3e928bb147/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_home.default.closePopup is not a function</message>
+                <stack-trace>TypeError: _home.default.closePopup is not a function
+                    at Context.&lt;anonymous> (/Users/rboni/Desktop/qa/test/specs/example.e2e.js:8:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Context.executeAsync (/Users/rboni/Desktop/qa/node_modules/@wdio/utils/build/shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (/Users/rboni/Desktop/qa/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

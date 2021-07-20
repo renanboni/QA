@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626815596207' stop='1626815598826'>
+    <name>Create a fixed rate contract</name>
+    <title>Create a fixed rate contract</title>
+    <test-cases>
+        <test-case start='1626815596207' status='broken' stop='1626815598824'>
+            <name>should go to the contract page</name>
+            <title>should go to the contract page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.164'/>
+            </parameters>
+            <steps>
+                <step start='1626815596209' status='passed' stop='1626815598367'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f5e8e1e6-363e-499d-8887-112346a852f8-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815598368' status='passed' stop='1626815598380'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a64536b0-221a-406f-9df8-9fd6dcba1322-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='c85bf812-f64a-4157-a560-0e8fd244b137-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815598385' status='passed' stop='1626815598411'>
+                    <name>POST /session/:sessionId/element/88beb71b-49c8-4b20-be17-9798d24c6c80/clear</name>
+                    <title>POST /session/:sessionId/element/88beb71b-49c8-4b20-be17-9798d24c6c80/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626815598414' status='passed' stop='1626815598606'>
+                    <name>POST /session/:sessionId/element/88beb71b-49c8-4b20-be17-9798d24c6c80/value</name>
+                    <title>POST /session/:sessionId/element/88beb71b-49c8-4b20-be17-9798d24c6c80/value</title>
+                    <attachments>
+                        <attachment title='Request' source='79441cd3-dd5f-4f0e-8a6a-0c915168bd7d-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815598607' status='passed' stop='1626815598648'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b754262e-1dff-4eff-9e6f-38b4c448daea-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='37e23bc6-2a4b-46aa-885e-cf527cf35537-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815598651' status='passed' stop='1626815598673'>
+                    <name>POST /session/:sessionId/element/1baa7c01-7b1f-423e-8aec-be4764b7ce50/clear</name>
+                    <title>POST /session/:sessionId/element/1baa7c01-7b1f-423e-8aec-be4764b7ce50/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626815598674' status='passed' stop='1626815598735'>
+                    <name>POST /session/:sessionId/element/1baa7c01-7b1f-423e-8aec-be4764b7ce50/value</name>
+                    <title>POST /session/:sessionId/element/1baa7c01-7b1f-423e-8aec-be4764b7ce50/value</title>
+                    <attachments>
+                        <attachment title='Request' source='7ef570e0-c9b8-4e30-bb90-179b7704997e-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815598735' status='passed' stop='1626815598746'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2c36411c-787f-479a-8d7d-9497f1dee7d5-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='ad682b21-e8ea-4efc-a706-0eeef1afd254-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1626815598748' status='passed' stop='1626815598819'>
+                    <name>POST /session/:sessionId/element/510dade7-7b55-4b36-b1e1-fa5542151477/click</name>
+                    <title>POST /session/:sessionId/element/510dade7-7b55-4b36-b1e1-fa5542151477/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1626815598820' status='broken' stop='1626815598824'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_home.default.goToContractPage is not a function</message>
+                <stack-trace>TypeError: _home.default.goToContractPage is not a function
+                    at Context.&lt;anonymous> (/Users/rboni/Desktop/qa/test/specs/example.e2e.js:12:24)
+                    at Context.executeAsync (/Users/rboni/Desktop/qa/node_modules/@wdio/utils/build/shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (/Users/rboni/Desktop/qa/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
