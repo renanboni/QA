@@ -9,7 +9,8 @@
   "author": "Renan Boni",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^7.7.8"
+    "@wdio/cli": "^7.7.8",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
