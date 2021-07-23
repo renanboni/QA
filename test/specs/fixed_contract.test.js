@@ -4,11 +4,12 @@ import ContractPage from '../pageobjects/contract/contract.page';
 import FixedRate from '../pageobjects/fixed_rate/fixed_rate.page';
 import ContractSummary from '../pageobjects/contract_summary/contract_summary.page';
 import DateUtils from '../utils/date_utils';
+import config from '../../config';
 
 describe('Login', () => {
     before(async () => {
         await LoginPage.open();
-        await LoginPage.login('test1@gmail.com', 'Stef@ny2021');
+        await LoginPage.login(config.email, config.password);
         await HomePage.closePopup();
     });
 

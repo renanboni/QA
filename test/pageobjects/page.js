@@ -1,7 +1,9 @@
+import config from '../../config';
+
 export default class Page {
 
     open (path) {
-        return browser.url(`https://dev.deel.wtf/${path}`)
+        return browser.url(`${config.url}${path}`)
     }
 
 }
