@@ -4,7 +4,8 @@
   "description": "WebDriverIO JavaScript Mocha framework",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run wdio.conf.js"
+    "test": "npx wdio run wdio.conf.js",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
   },
   "author": "Renan Boni",
   "license": "ISC",

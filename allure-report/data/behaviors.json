@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should create a fixed rate",
+    "uid" : "14ec192690c9bb22",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1627044326984,
+      "stop" : 1627044339331,
+      "duration" : 12347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-91.0.4472.164" ]
+  } ]
+}

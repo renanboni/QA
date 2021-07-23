@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "[data-qa=contractor-tax-residence-province] input"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div[data-qa=\"contractor-tax-residence\"] > * div[class~=\"select\"]"
-}

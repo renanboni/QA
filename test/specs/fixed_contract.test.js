@@ -28,7 +28,6 @@ describe('Login', () => {
         await expect(ContractSummary.seniorityLevel).toHaveText("Senior (Individual Contributor Level 3)");
         await expect(ContractSummary.specialClause).toHaveText("Clause");
         await expect(ContractSummary.country).toHaveText("Colorado (United States)");
-        await expect(ContractSummary.rate).toHaveTextContaining("£");
         await expect(ContractSummary.rate).toHaveTextContaining("£1,000");
         await expect(ContractSummary.recurrence).toHaveText("Per week");
         await expect(ContractSummary.date).toHaveText(DateUtils.getYesterday());

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@data-qa='dpa-row-special-clause-value']/div[2]"
-}

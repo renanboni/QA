@@ -8,7 +8,6 @@ class HomePage extends Page {
     get btnClose () { return $('button[data-qa="close"]') }
 
     async closePopup() {
-        (await this.onboardingPopup).isDisplayed;
         await (await this.btnClose).click();
     }
 

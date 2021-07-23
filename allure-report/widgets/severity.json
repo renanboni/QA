@@ -1,0 +1,11 @@
+[ {
+  "uid" : "14ec192690c9bb22",
+  "name" : "should create a fixed rate",
+  "time" : {
+    "start" : 1627044326984,
+    "stop" : 1627044339331,
+    "duration" : 12347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

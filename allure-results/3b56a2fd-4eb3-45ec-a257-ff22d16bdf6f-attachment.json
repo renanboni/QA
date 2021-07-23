@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[contains(@class,'react-calendar__tile--active')]/preceding-sibling::*[1]"
-}
